@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item-gradient {
+  @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 opacity-70;
+}
+
+.hoverlink {
+  @apply hover:scale-90 duration-300;
+}
+
+.show {
+  @apply block;
+}
+
+.card-flex-row {
+  @apply w-[250px] flex flex-row  bg-white rounded-md p-4 hoverlink;
+}
+
+.card-flex-col {
+  @apply w-[400px] flex flex-col h-[100px] bg-white rounded-md p-4 mb-4;
+}
+
+.style-input {
+  @apply border w-full py-[6px] pl-2 bg-slate-100 rounded-md border-gray-200 focus:ring-1 focus:ring-birutua focus:rounded-md my-2;
+}
+
+.tabs {
+  @apply bg-white text-black;
+}
+.tabs-aktif {
+  @apply bg-[#144272] text-white;
+}
+
+.navbar-style {
+  @apply w-[1220px] flex flex-row items-center mx-auto justify-between;
+}
+
+.db-container {
+  @apply w-full h-[152px] border border-gray-300 flex flex-col rounded-md relative;
+}
+
+.link-style {
+  @apply flex flex-row p-1 border border-gray-500 rounded-md mr-3 px-2 border-b-4 border-b-birutua;
+}
+
+.card-hover-t {
+  @apply absolute left-0 top-0 h-0 w-0 border-t-2 border-birutua transition-all duration-500 group-hover:w-full;
+}
+
+.card-hover-r {
+  @apply absolute right-0 top-0 h-0 w-0 border-r-2 border-birutua transition-all duration-500 group-hover:h-full;
+}
+
+.card-hover-b {
+  @apply absolute bottom-0 right-0 h-0 w-0 border-b-2 border-birutua transition-all duration-500 group-hover:w-full;
+}
+
+.card-hover-l {
+  @apply absolute bottom-0 left-0 h-0 w-0 border-l-2 border-birutua transition-all duration-500 group-hover:h-full;
+}
+
+.home-logout-link {
+  @apply flex flex-row mx-3 border-b-2 border-birutua rounded-sm text-sm;
+}
+
+.input-bio {
+  @apply w-full outline-none p-1 py-3 md:p-2 text-xs md:text-sm rounded-md border border-l-gray-400 focus:ring-2 focus:ring-yellow-400 focus:border-none focus:rounded-md flex mx-auto mr-3;
+}
+
