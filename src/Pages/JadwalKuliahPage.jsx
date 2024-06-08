@@ -8,11 +8,11 @@ const JadwalKuliahPage = () => {
   return (
     <div className='bg-slate-100'>
       <Navbar />
-      <div>
+      <div className='bg-slate-100'>
         <HomeLink title="Jadwal Kuliah" />
         <JadwalTable />
       </div>
-      <Footer className="w-full h-9 bg-birutua absolute bottom-0" />
+      <Footer className="w-[1260px] h-9 bg-birutua absolute bottom-0" />
     </div>
   )
 }

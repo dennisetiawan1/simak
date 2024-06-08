@@ -8,11 +8,11 @@ const UseptPage = () => {
   return (
     <div className='bg-slate-100 h-screen'>
       <Navbar />
-      <div className='w-[1220px] mx-auto'>
+      <div className='w-[1220px] mx-auto bg-slate-100'>
         <HomeLink title="Usept" />
         <Usept />
       </div>
-      <Footer className="w-full h-9 bg-birutua absolute bottom-0"  />
+      <Footer className="w-[1260px] h-9 bg-birutua absolute bottom-0"  />
     </div>
   )
 }

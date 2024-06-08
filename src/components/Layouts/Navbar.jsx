@@ -4,7 +4,7 @@ import userProfile from "../../assets/Dashboard/user-profile.jpeg"
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row h-16 bg-birutua">
+    <div className="flex flex-row h-16 bg-birutua w-[1260px]">
       {/* Navbar */}
       <nav className="w-[1220px] flex flex-row items-center mx-auto justify-between">
         <a href="#" className="flex flex-row items-center">

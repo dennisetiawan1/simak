@@ -38,9 +38,9 @@ const matkuls = [
 
 const AkademikPage = () => {
     return (
-    <div className='bg-slate-100 h-screen'>
+    <div className='bg-slate-100'>
         <Navbar />
-        <div className='w-[1220px] mx-auto'>
+        <div className='w-[1220px] mx-auto bg-slate-100'>
             <HomeLink title="Akademik"/>
             <UserDashboardPage user={user} matkuls={matkuls} />
         </div>

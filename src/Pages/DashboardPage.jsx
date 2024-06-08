@@ -8,7 +8,7 @@ const DashboardPage = () => {
   return (
     <div className='bg-slate-100'>
       <Navbar />
-      <div className='w-[1220px] mx-auto'>
+      <div className='bg-slate-100 w-[1220px] mx-auto'>
         <DashboardProfile />
         <CardTable />
       </div>

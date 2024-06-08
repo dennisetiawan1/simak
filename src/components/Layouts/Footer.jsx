@@ -10,7 +10,7 @@ const Footer = ({className}) => {
   );
 };
 Footer.defaultProps = {
-  className: "w-full h-9 bg-birutua mt-10",
+  className: "w-[1260px] h-9 bg-birutua mt-10",
 };
 
 export default Footer;
